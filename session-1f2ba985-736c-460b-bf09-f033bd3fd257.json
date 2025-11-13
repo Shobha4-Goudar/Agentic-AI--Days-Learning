@@ -1,0 +1,253 @@
+{
+  "id": "1f2ba985-736c-460b-bf09-f033bd3fd257",
+  "appName": "home_automation_agent",
+  "userId": "user",
+  "state": {},
+  "events": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Turn on the desk lamp in the office"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-3c56ebd1-a939-4e38-9ec4-14f20279bf55",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "id": "f697a623-33e5-4622-a532-897db0f96d44",
+      "timestamp": 1763047985.503166
+    },
+    {
+      "modelVersion": "gemini-2.5-flash-lite",
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-2f1737df-403c-4a07-9e79-59c89d2393d3",
+              "args": {
+                "status": "ON",
+                "location": "office",
+                "device_id": "desk lamp"
+              },
+              "name": "set_device_status"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 30,
+        "promptTokenCount": 250,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 250
+          }
+        ],
+        "totalTokenCount": 280
+      },
+      "invocationId": "e-3c56ebd1-a939-4e38-9ec4-14f20279bf55",
+      "author": "home_automation_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "longRunningToolIds": [],
+      "id": "5f8c5b5d-110b-4526-8802-a13ee18079ee",
+      "timestamp": 1763047985.509217
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-2f1737df-403c-4a07-9e79-59c89d2393d3",
+              "name": "set_device_status",
+              "response": {
+                "success": true,
+                "message": "Successfully set the desk lamp in office to on."
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-3c56ebd1-a939-4e38-9ec4-14f20279bf55",
+      "author": "home_automation_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "id": "3c5ff3f9-8efa-4511-aa14-ef57b01841ae",
+      "timestamp": 1763047986.837601
+    },
+    {
+      "modelVersion": "gemini-2.5-flash-lite",
+      "content": {
+        "parts": [
+          {
+            "text": "The desk lamp in the office has been turned on."
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 11,
+        "promptTokenCount": 310,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 310
+          }
+        ],
+        "totalTokenCount": 321
+      },
+      "invocationId": "e-3c56ebd1-a939-4e38-9ec4-14f20279bf55",
+      "author": "home_automation_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "id": "09ecf806-4acf-48db-94b1-fc84c3336e22",
+      "timestamp": 1763047986.838859
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Turn on the desk lamp in the office\n\n"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-ad9185b1-5ddd-4521-a360-194539881093",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "id": "307d8d32-2417-49d4-a70b-1d368d075cd5",
+      "timestamp": 1763048470.754071
+    },
+    {
+      "modelVersion": "gemini-2.5-flash-lite",
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-550c9f60-d768-4fb9-b784-212ef308ef3d",
+              "args": {
+                "status": "ON",
+                "location": "office",
+                "device_id": "desk lamp"
+              },
+              "name": "set_device_status"
+            }
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 30,
+        "promptTokenCount": 332,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 332
+          }
+        ],
+        "totalTokenCount": 362
+      },
+      "invocationId": "e-ad9185b1-5ddd-4521-a360-194539881093",
+      "author": "home_automation_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "longRunningToolIds": [],
+      "id": "c6fa848d-25d7-4d54-88b1-d0bd112fc224",
+      "timestamp": 1763048470.754853
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-550c9f60-d768-4fb9-b784-212ef308ef3d",
+              "name": "set_device_status",
+              "response": {
+                "success": true,
+                "message": "Successfully set the desk lamp in office to on."
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-ad9185b1-5ddd-4521-a360-194539881093",
+      "author": "home_automation_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "id": "2e22338a-7d8f-4e44-bc86-467839cd3640",
+      "timestamp": 1763048471.656641
+    },
+    {
+      "modelVersion": "gemini-2.5-flash-lite",
+      "content": {
+        "parts": [
+          {
+            "text": "The desk lamp in the office is already on."
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 10,
+        "promptTokenCount": 392,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 392
+          }
+        ],
+        "totalTokenCount": 402
+      },
+      "invocationId": "e-ad9185b1-5ddd-4521-a360-194539881093",
+      "author": "home_automation_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "id": "5ad6dbd3-1787-44bc-83fb-a5b7605f2a32",
+      "timestamp": 1763048471.657839
+    }
+  ],
+  "lastUpdateTime": 1763048471.657839
+}
